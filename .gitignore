@@ -6,4 +6,5 @@ gen
 
 # Python files
 **/.venv/
+**/__pycache__
 
