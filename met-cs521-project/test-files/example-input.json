@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Favorite Season",
+    "is_anonymous": true,
+    "options": [
+      {
+        "name": "Fall",
+        "num_votes": 0,
+        "voters": []
+      },
+      {
+        "name": "Winter",
+        "num_votes": 0,
+        "voters": []
+      },
+      {
+        "name": "Spring",
+        "num_votes": 0,
+        "voters": []
+      },
+      {
+        "name": "Summer",
+        "num_votes": 0,
+        "voters": []
+      }
+    ]
+  },
+  {
+    "name": "Favorite Color",
+    "is_anonymous": false,
+    "options": [
+      {
+        "name": "Red",
+        "num_votes": 0,
+        "voters": []
+      },
+      {
+        "name": "Green",
+        "num_votes": 0,
+        "voters": []
+      },
+      {
+        "name": "Blue",
+        "num_votes": 0,
+        "voters": []
+      }
+    ]
+  }
+]

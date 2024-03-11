@@ -1,0 +1,33 @@
+1.
+  a. In this context, "interpreted" means that there is a program within Python which takes each line of code and executes it one line at a time. There is no compilation; the code we write is exactly what is executed.
+  b. Some advantages of using an interpreted language vs. a compiled language are:
+	- not having to perform a compilation step to make code executable
+	- code from interpreted languages is (usually) platform independent
+	- interpreted languages often offer dynamic typing
+	- interpreted languages often offer shell modes to execute code immediately
+     some disadvantages of interpreted vs. compiled languages are:
+	- execution speed is typically slower than compiled code
+	- compilers often warn users about errors in code, especially involving types. Interpreted languages will not do this until the code is executed
+2.
+  a. A Python comment is text within a Python program that is meant for a human reader, it is not executed.
+  b. In Python, a single-line comment can be indicated using a pounch character (# comment). A multi-line comment can be indicated by enclosing the comment in triple double-quotes ("""comment""").
+  c. Comments are typically used to provide additional information about the intent or usage of code. They improve the readability of code by explaining the "how" or "why" of a particular piece of code.
+3.
+  In Python, a namespace is a [a special structure to keep a list of names and their associated values.] The list includes names of variables and other names as well. [The Python interpreter updates both names and values during the course of its operation.]
+4.
+  a. Whitespace is the absence of a visible character. According to the textbook, whitespace in Python can be made of the following characters:
+	- space
+	- tab
+	- return
+	- linefeed
+	- formfeed
+	- vertical tab
+  b. Whitespace matters when it is leading whitespace. This is known as indentation and is used in Python to group a set of statements or expressions together. Whitespace is also important for readability.
+  c. Whitespace is always important for readability, but, to Python, whitespace does not matter if it is [in expressions and statements. For example, Y=X+5 has exactly the same meaning as Y = X + 5.] and [blank lines are allowed anywhere and are ignored.]
+5.
+  a. A statement [does not return a value, but does perform some task. Some statements may control the flow of the program, and others might ask for resources; statements perform a wide variety of tasks. As a result of their operation, a statement may have a side effect.]
+     An expression is [a combination of values and operations that creates a new value that we call a return value. If you enter an expression into the Python shell, a value will be returned and displayed.]
+     In short, a statement does not return a value but an expression does.
+  b. An example of a statement is x = 5. An example of an expression is x + 5.
+  c. A side effect means some change that results from executing a statement. For example, the statement x = 5 has no return value, [but it does set the value associated with the variable to 5, a side effect.]
+  

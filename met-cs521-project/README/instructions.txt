@@ -1,0 +1,6 @@
+Start the program by running main.py
+Directions should be displayed in the terminal
+You can select options by entering the corresponding number
+To read from a file, you must provide the path to a properly formatted JSON file
+example-input.json is an example file. To write to a file,
+you can simply specify a name for the output file, it does not have to exist.

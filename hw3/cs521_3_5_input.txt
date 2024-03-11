@@ -1,0 +1,4 @@
+Jerry Seinfeld, 1, 3.7
+Elaine Benes, 52, 2.8
+George Costanza, 13, 3.9
+Cosmo Kramer, 24, 3.4

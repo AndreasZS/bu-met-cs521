@@ -1,0 +1,14 @@
+This program creates a tiny polling terminal. Some uses could be polling nearby coworkers on where they would like to go for lunch, or making the terminal/machine available
+to the public and simply ask passerby to vote on a poll. This was meant as a fun way to explore simple voting systems and terminal-based user interfaces.
+While working on it, I realized just a few of the challenges in creating a secure voting system. For the most part, this program assumes users are "good actors"
+meaning they do not have bad intentions.
+Multiple people can use this program to create and vote on polls, view poll results, read polls from a file, or write polls to a file.
+For example, a user can create a poll called "Favorite Season" with the options "Fall", "Winter", "Spring", and "Summer"
+which they and other users can then vote on. At any time, a user can view the results of a poll which will display the options along with their respective number of votes
+and--if the poll is not anonymous--the names of who voted on each option. Polls are anonymous by default,
+meaning that it won't ask or show names. However, if a poll is not anonymous then
+users will need to provide a name when voting. If a user does not want to create a poll using the terminal,
+they can load one or more polls using a properly formatted JSON file (see test-polls.json for an example).
+At any time, a user can write their current polls to a file.
+If users are done using the program they can exit via the main menu.
+The equality of two Poll instances is determined by name and names are case-sensitive. The same is true for PollOption instances.
